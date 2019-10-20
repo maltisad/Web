@@ -1,0 +1,246 @@
+
+nav{
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+
+
+nav .nav li a {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    transition: all 0.4s ease-in-out;
+}
+nav .nav li a:hover {
+    background: transparent;
+    color: #E3AE57;
+}
+
+
+#title{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+
+
+
+
+.section-title h4{
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+.section-title p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+.section-title h1{
+  font-family: 'Titillium Web', sans-serif;
+}
+.section-btn {
+  background-color: transparent;
+  border: 3px solid #232B2B;
+  border-radius: 100px;
+  color: #232B2B;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  padding: 12px 36px;
+  margin-top: 42px;
+  transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
+}
+
+.section-btn:hover {
+  background: #E3AE57;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.btn-success:focus {
+  background-color: #000;
+  border-color: transparent;
+}
+
+
+#about .container{
+ 
+}
+
+
+#home .container,
+#about .container, 
+#experience .container,
+#service .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+   font-family: 'Work Sans', sans-serif;
+}
+
+#experience .experience-thumb {
+  padding: 22px 42px 42px 42px;
+   font-family: 'Work Sans', sans-serif;
+}
+
+
+
+#experience {
+  background: #E9724C;
+}
+
+.background-image {
+    background-position: 50% 50% !important;
+    background-size: cover !important; /* qka o imprtant edhe vh*/
+    width: 100%;
+    height: 100%;
+    min-height: 75vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-yellow {
+  color: #E3AE57;
+}
+
+.bg-yellow {
+  background: #E3AE57;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-dark {
+  background: #161616;
+}
+
+
+
+#home h1 {
+  padding-bottom: 18px;
+}
+
+#home .col-md-6 {
+  background: #f1e2d7;
+/* light blue color: #c3eafd; */
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#home .home-img {
+  background: url('../images/home-img.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+#home .home-thumb {
+ 
+  display: flex;
+ 
+  align-items: center;
+  height: 100vh;
+  padding: 0 45px 0 45px;
+}
+
+
+
+----------------------------------*/
+
+.about-img {
+    background: url('../images/about-img.jpg') no-repeat;
+}
+
+ .about-thumb,
+ .skill-thumb {
+  padding: 22px 32px 32px 32px;
+}
+
+#about .progress {
+  background: #ffffff;
+  border-radius: 0px;
+  box-shadow: none;
+  height: 2px;
+}
+
+
+
+#about strong,
+#about span {
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+
+
+
+#service {
+  background: #E9724C;
+}
+
+#service p {
+  font-size: 18px;
+}
+
+#service .service-thumb {
+  padding: 52px 22px 52px 22px;
+}
+
+#service img{
+  margin-left: 125px;
+}
+
+#service h3{
+  font-size: 25px;
+  margin-left: 75px;
+margin-bottom: 20px;
+}
+
+
+#experience .experience-img {
+  background: url('../images/experience-img.jpg') no-repeat;
+}
+
+#experience img{
+  margin-right: 20px;
+}
+
+
+#quotes {
+    background: url('../images/quotes-bg.jpg') ;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+     font-family: 'Work Sans', sans-serif;
+}
+
+ .overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+
